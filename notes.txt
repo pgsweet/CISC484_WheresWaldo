@@ -1,0 +1,19 @@
+datasets:
+    train_1 is made with 100 subsections with 25% containing waldo
+    train_2 is made with 200 subsections with 50% containing waldo
+    train_3 is made with 100 subsections with 100% containing waldo
+
+val:
+    val_1 is 20 subsections with 25% containing waldo
+    val_2 is 20 subsections with 100% containing waldo
+
+runs:
+    4 is 10 epochs with train_1 and val_1
+    5 is 50 epochs with train_1 and val_1
+    6 is 50 epochs with train_2 and val_1
+    7 is 50 epochs with train and val ----- BEST RUN SO FAR
+
+
+TODO:
+    add the rotation and flipping of images
+    add testing data with 10% of images containing waldo
