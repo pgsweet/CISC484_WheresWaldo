@@ -7,3 +7,5 @@ runs/detect/train4
 
 best.pt
 last.pt
+runs/detect/train8/weights/best.onnx
+runs/detect/train8/weights/best.torchscript

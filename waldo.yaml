@@ -1,9 +1,8 @@
-
 path: ../datasets/waldo  # Change this to your dataset directory
 
-train: images/train_4  # Path to your training images
-val: images/val_3      # Path to your validation images
-test: images/test_1    # Optional path to test images (you can leave it empty if you don't have a separate test set)
+train: images/train_3  # Path to your training images
+val: images/val_2      # Path to your validation images
+test: images/test_2    # Optional path to test images (you can leave it empty if you don't have a separate test set)
 
 names:
     0: 'Waldo' 

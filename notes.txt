@@ -3,14 +3,17 @@ datasets:
     train_2 is made with 200 subsections with 50% containing waldo
     train_3 is made with 100 subsections with 100% containing waldo
     train_4 is made with 100 subsections with 80% containing waldo, with images randomly rotated and flipped
+    train_5 is made with 200 subsections with 100% containing waldo
 
 val:
     val_1 is 20 subsections with 25% containing waldo
     val_2 is 20 subsections with 100% containing waldo
     val_3 is 40 subsections with 80% containing waldo, with images randomly rotated and flipped
+    val_4 is 100 subsections with 100% containing waldo
 
 test:
     test_1 is 20 subsections with 25% containing waldo, with images randomly rotated and flipped
+    test_2 is 32 subsections with 50% containing waldo
 
 runs:
     4 is 10 epochs with train_1 and val_1
@@ -18,4 +21,5 @@ runs:
     6 is 50 epochs with train_2 and val_1
     7 is 50 epochs with train_3 and val_2 ----- BEST RUN SO FAR
     8 is 50 epochs with train_4 and val_3 and test_1
+    9 is 50 epochs with train_5 and val_4 ----- literally predicted nothing
 
